@@ -2,7 +2,7 @@
 version: 2
 updates:
   - package-ecosystem: 'terraform'
-    directory: '/*.tf'
+    directory: '/*'
     schedule:
       interval: 'daily'
 
