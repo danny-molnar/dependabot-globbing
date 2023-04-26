@@ -5,4 +5,7 @@ updates:
     directory: '/*.tf'
     schedule:
       interval: 'daily'
-
+  - package-ecosystem: gomod
+    directory: '/test/*'
+    schedule:
+      interval: 'daily'
