@@ -2,10 +2,10 @@
 version: 2
 updates:
   - package-ecosystem: 'terraform'
-    directory: '/*.tf'
+    directory: '/*'
     schedule:
       interval: 'daily'
   - package-ecosystem: gomod
-    directory: '/test/*.go'
+    directory: '/test/module_test.go'
     schedule:
       interval: 'daily'
