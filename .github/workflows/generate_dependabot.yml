@@ -21,4 +21,7 @@ jobs:
             PRNUM: ${{ steps.cpr.outputs.pull-request-number }}
 
       - name: Merge PR
-        run: gh pr merge ${{ steps.cpr.outputs.pull-request-number }}
+      - uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          token: ${{ secrets.PAT }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
