@@ -2,7 +2,6 @@ name: Generate dependabot.yml
 
 on:
   push:
-  repository_dispatch:
   workflow_dispatch:
 
 jobs:
@@ -14,6 +13,12 @@ jobs:
         
       - name: Generate Dependabot Glob
         uses: Makeshift/generate-dependabot-glob-action@v1.2.1
-        
+
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4
+        id: cpr
+        uses: peter-evans/create-pull-request@v5
+        env:
+            PRNUM: ${{ steps.cpr.outputs.pull-request-number }}
+
+      - name: Print PRNUM
+        run: echo ${{env.PRNUM}}
