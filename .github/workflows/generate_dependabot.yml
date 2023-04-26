@@ -20,5 +20,5 @@ jobs:
         env:
             PRNUM: ${{ steps.cpr.outputs.pull-request-number }}
 
-      - name: Print PRNUM
-        run: echo ${{env.PRNUM}}
+      - name: Merge PR
+        run: gh pr merge ${{ steps.cpr.outputs.pull-request-number }}
