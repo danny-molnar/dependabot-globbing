@@ -20,8 +20,11 @@ jobs:
         env:
             PRNUM: ${{ steps.cpr.outputs.pull-request-number }}
 
-      - name: Merge PR
-        uses: peter-evans/enable-pull-request-automerge@v3
-        with:
-          token: ${{ secrets.PAT }}
-          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+      - name: Print PRNUM
+        run: echo ${{ steps.cpr.outputs.pull-request-number }}
+
+    #   - name: Merge PR
+    #     uses: peter-evans/enable-pull-request-automerge@v3
+    #     with:
+    #       token: ${{ secrets.PAT }}
+    #       pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
