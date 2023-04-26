@@ -6,6 +6,6 @@ updates:
     schedule:
       interval: 'daily'
   - package-ecosystem: gomod
-    directory: '/test/*'
+    directory: '/test/*.go'
     schedule:
       interval: 'daily'
