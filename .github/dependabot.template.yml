@@ -2,10 +2,14 @@
 version: 2
 updates:
   - package-ecosystem: 'terraform'
-    directory: '{/*.tf,/*.tfvars,!/example/*}'
+    directory: '/**/*'
     schedule:
       interval: 'daily'
-  - package-ecosystem: gomod
-    directory: '/test/*'
+  - package-ecosystem: 'gomod'
+    directory: '/test/**/*'
+    schedule:
+      interval: 'daily'
+  - package-ecosystem: 'github-actions'
+    directory: '/.github/workflows/**/*'
     schedule:
       interval: 'daily'
