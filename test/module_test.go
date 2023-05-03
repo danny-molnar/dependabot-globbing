@@ -1,7 +1,8 @@
 package main
 
 import "fmt"
+import "strings"
 
 func main() {
-	fmt.Println("Pure ideology")
+	fmt.Println(strings.ToLower("Pure ideology"))
 }
