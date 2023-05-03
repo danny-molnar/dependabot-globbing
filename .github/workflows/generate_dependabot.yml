@@ -5,4 +5,4 @@ on:
 
 jobs:
   "Generate":
-    uses: "department-for-transport-IaC/thunderdome/.github/workflows/generate-dependabot.yml@dm-dependabot-glob-generator"
+    uses: "danny-molnar/blastarcade/.github/workflows/generate-dependabot.yml@depnbot-conf-gen"
