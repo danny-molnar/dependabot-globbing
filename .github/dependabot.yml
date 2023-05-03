@@ -20,15 +20,3 @@ updates:
     directory: /.github/workflows
     schedule:
       interval: daily
-  - package-ecosystem: npm
-    directory: //example
-    schedule:
-      interval: daily
-  - package-ecosystem: npm
-    directory: //test
-    schedule:
-      interval: daily
-  - package-ecosystem: npm
-    directory: /
-    schedule:
-      interval: daily
