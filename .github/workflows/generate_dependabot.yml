@@ -5,4 +5,4 @@ on:
 
 jobs:
   "Generate":
-    uses: "danny-molnar/blastarcade/.github/workflows/generate-dependabot.yml@depnbot-conf-gen"
+    uses: "danny-molnar/blastarcade/.github/workflows/generate-dependabot.yml@main"
