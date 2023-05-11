@@ -1,0 +1,8 @@
+name: Autoclose Dependabot PRs
+
+on:
+  [push, workflow_dispatch]
+
+jobs:
+  "Autoclose":
+    uses: "danny-molnar/blastarcade/.github/workflows/autoclose-dependabot-pr.yml@main"
