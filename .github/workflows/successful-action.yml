@@ -1,0 +1,8 @@
+name: Generate dependabot.yml
+
+on:
+  [push, workflow_dispatch]
+
+jobs:
+  "Test":
+    uses: "danny-molnar/blastarcade/.github/workflows/successful-action.yml@main"
