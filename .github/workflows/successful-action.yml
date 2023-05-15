@@ -1,4 +1,4 @@
-name: Generate dependabot.yml
+name: Successful action wait logic
 
 on:
   [push, workflow_dispatch]
