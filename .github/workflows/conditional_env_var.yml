@@ -1,0 +1,11 @@
+---
+name: Testing conditional environment variables
+
+on:
+    [push, workflow_dispatch]
+
+jobs:
+  "Test":
+    uses: "danny-molnar/blastarcade/.github/workflows/conditional_env_var.yml@main"
+
+    
