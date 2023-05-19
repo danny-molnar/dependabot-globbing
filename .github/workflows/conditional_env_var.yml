@@ -7,4 +7,5 @@ on:
 jobs:
   "Test":
     uses: "danny-molnar/blastarcade/.github/workflows/conditional_env_var.yml@main"
-
+    with:
+      IGNORE_EXAMPLE: true
