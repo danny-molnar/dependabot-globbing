@@ -9,4 +9,4 @@ jobs:
     uses: "danny-molnar/blastarcade/.github/workflows/conditional_env_var.yml@main"
     with:
       IGNORE_EXAMPLE: true
-      IGNORE_REGEXP: ".*example.*"
+      #IGNORE_REGEXP: ".*example.*"
