@@ -1,0 +1,8 @@
+name: Context demo
+
+on:
+  [push, workflow_dispatch]
+
+jobs:
+  "Demo":
+    uses: "danny-molnar/blastarcade/.github/workflows/context.yml@main"
