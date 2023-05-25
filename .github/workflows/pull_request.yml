@@ -1,0 +1,10 @@
+name: Pull Request for Stacks
+
+on:
+  workflow_dispatch:
+
+jobs:
+
+  stackpr:
+    name: Stack PR
+    uses: "danny-molnar/blastarcade/.github/workflows/context.yml@main"

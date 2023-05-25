@@ -1,0 +1,10 @@
+name: Push Main for Stacks
+
+on:
+  workflow_dispatch:
+
+jobs:
+
+  stackpushmain:
+    name: Stack Push to Main
+    uses: "danny-molnar/blastarcade/.github/workflows/context.yml@main"
