@@ -4,5 +4,7 @@ on:
   [push, workflow_dispatch]
 
 jobs:
-  "Demo":
+
+  demo:
+    name: Demo
     uses: "danny-molnar/blastarcade/.github/workflows/context.yml@main"
