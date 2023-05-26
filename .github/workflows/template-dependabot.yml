@@ -1,0 +1,8 @@
+name: Template dependabot
+
+on:
+  [push, workflow_dispatch]
+
+jobs:
+  "Generate":
+    uses: "danny-molnar/blastarcade/.github/workflows/dep-templates.yml@main"
