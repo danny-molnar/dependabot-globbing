@@ -6,3 +6,5 @@ on:
 jobs:
   "Generate":
     uses: "danny-molnar/blastarcade/.github/workflows/dep-templates.yml@main"
+    with:
+        LIST_OF_PACKAGES: '["ideology","zizek"]'
