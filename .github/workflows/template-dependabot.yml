@@ -7,4 +7,4 @@ jobs:
   "Generate":
     uses: "danny-molnar/blastarcade/.github/workflows/dep-templates.yml@main"
     with:
-        LIST_OF_PACKAGES: '[{"package":"terraform","interval":"daily"},{"package":"gomod","interval":"daily"}]'
+        LIST_OF_PACKAGES: 'terraform, gomod'
