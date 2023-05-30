@@ -1,7 +1,7 @@
 name: Template dependabot
 
 on:
-  [push, workflow_dispatch]
+  workflow_dispatch
 
 jobs:
   "Generate":

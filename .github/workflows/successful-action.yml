@@ -1,7 +1,7 @@
 name: Successful action wait logic
 
 on:
-  [push, workflow_dispatch]
+  workflow_dispatch
 
 jobs:
   "Test":
