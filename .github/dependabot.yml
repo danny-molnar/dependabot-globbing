@@ -1,38 +1,38 @@
 version: 2
 updates:
-  - package-ecosystem: terraform
+  - package-ecosystem: bunnies
     directory: //example
     schedule:
-      interval: daily
-  - package-ecosystem: terraform
+      interval: hegel
+  - package-ecosystem: bunnies
     directory: //test
     schedule:
-      interval: daily
-  - package-ecosystem: terraform
+      interval: hegel
+  - package-ecosystem: bunnies
     directory: /
     schedule:
-      interval: daily
-  - package-ecosystem: gomod
+      interval: hegel
+  - package-ecosystem: owls
     directory: //example
     schedule:
-      interval: daily
-  - package-ecosystem: gomod
+      interval: hegel
+  - package-ecosystem: owls
     directory: //test
     schedule:
-      interval: daily
-  - package-ecosystem: gomod
+      interval: hegel
+  - package-ecosystem: owls
     directory: /
     schedule:
-      interval: daily
-  - package-ecosystem: github-actions
+      interval: hegel
+  - package-ecosystem: ideology
     directory: //example
     schedule:
-      interval: daily
-  - package-ecosystem: github-actions
+      interval: hegel
+  - package-ecosystem: ideology
     directory: //test
     schedule:
-      interval: daily
-  - package-ecosystem: github-actions
+      interval: hegel
+  - package-ecosystem: ideology
     directory: /
     schedule:
-      interval: daily
+      interval: hegel
