@@ -7,5 +7,5 @@ jobs:
   "Generate":
     uses: "danny-molnar/blastarcade/.github/workflows/dep-templates.yml@main"
     with:
-        LIST_OF_PACKAGES: 'bunnies, owls, ideology'
-        SCHEDULE_INTERVAL: 'hegel'
+        LIST_OF_PACKAGES: 'terraform, gomod, github-actions'
+        SCHEDULE_INTERVAL: 'daily'
