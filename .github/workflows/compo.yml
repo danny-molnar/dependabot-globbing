@@ -8,4 +8,4 @@ on:
 jobs:
   composite-action:
     name: Slavoj 
-    uses: danny-molnar/blastarcade/.github/workflows/composite_action.yml
+    uses: danny-molnar/blastarcade/.github/workflows/composite_action.yml@main
