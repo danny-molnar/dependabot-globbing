@@ -1,10 +1,11 @@
-name: Pull Request for Stacks
+---
+name: Pull Request for Slavoj Zizek
 
 on:
-  workflow_dispatch:
+  pull_request:
 
 jobs:
 
-  stackpr:
-    name: Stack PR
-    uses: "danny-molnar/blastarcade/.github/workflows/context.yml@main"
+  slavojpr:
+    name: Slavojure
+    uses: danny-molnar/blastarcade/.github/workflows/composite_action.yml@main
