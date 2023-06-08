@@ -1,0 +1,10 @@
+---
+name: Retrigger Workflow Demo
+
+on:
+  pull_request:
+
+jobs:
+  retrigger:
+    name: Retrigger wf
+    uses: danny-molnar/blastarcade/.github/workflows/retriggered_wf.yml@main
