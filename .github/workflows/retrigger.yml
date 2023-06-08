@@ -1,13 +1,11 @@
 ---
-name: Retrigger Workflow Demo
+name: Dump Github Context
 
 on:
   pull_request:
-    types:
-      - synchronize
   workflow_dispatch:
 
 jobs:
-  retrigger:
-    name: Retrigger wf
+  dump-context:
+    name: Dump GH context
     uses: danny-molnar/blastarcade/.github/workflows/retriggered_wf.yml@main
