@@ -3,6 +3,8 @@ name: Retrigger Workflow Demo
 
 on:
   pull_request:
+    types:
+      - synchronize
   workflow_dispatch:
 
 jobs:
