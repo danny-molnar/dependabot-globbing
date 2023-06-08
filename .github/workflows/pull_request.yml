@@ -2,7 +2,6 @@
 name: Pull Request for Slavoj Zizek
 
 on:
-  pull_request:
   push:
     paths:
       - ".github/dependabot.yml"
