@@ -11,9 +11,9 @@ on:
       - reopened # Default Types
       - labeled # REQUIRED to enforce labels
       - unlabeled # REQUIRED to enforce labels
-  push:
-    branches-ignore:
-      - "main"
+  # push:
+  #   branches-ignore:
+  #     - "main"
 
 
 jobs:
