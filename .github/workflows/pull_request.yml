@@ -1,11 +1,23 @@
 ---
-name: Pull Request for Slavoj Zizek
+name: Pull Request test 12 06
 
 on:
   pull_request:
+    paths:
+      - '.github/**' # REQUIRED to retrigger status checks on commits to the directory
+    types:
+      - opened # Default Types
+      - synchronize # Default Types
+      - reopened # Default Types
+      - labeled # REQUIRED to enforce labels
+      - unlabeled # REQUIRED to enforce labels
+  push:
+    branches-ignore:
+      - main
+
 
 jobs:
 
-  slavojpr:
-    name: Slavojure
-    uses: danny-molnar/blastarcade/.github/workflows/composite_action.yml@main
+  testpr:
+    name: Test PR 12 06
+    uses: danny-molnar/blastarcade/.github/workflows/testpr.yml@main
