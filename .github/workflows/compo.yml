@@ -1,7 +1,6 @@
 ---
 name: Reusing workflows
 on:
-  push:
   workflow_dispatch:
 
 jobs:
